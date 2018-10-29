@@ -17,7 +17,7 @@ for (var i = 0; i < pathEls.length; i++) {
     easing: 'easeInOutSine',
     autoplay: true
   });
-
+}
 
 	var colors = anime({
 		targets: '#colors .el',
@@ -31,4 +31,3 @@ for (var i = 0; i < pathEls.length; i++) {
 		direction: 'alternate',
 		duration: 2000
 	  });
-}
